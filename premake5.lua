@@ -1,7 +1,8 @@
-    
 project "yaml-cpp"
     kind "StaticLib"
     language "C++"
+	cppdialect "C++17"
+	staticruntime "off"
     
 	targetdir (vendor_output_dir)
     objdir (vendor_output_int_dir)
@@ -20,14 +21,14 @@ project "yaml-cpp"
     
 	filter "system:windows"
         systemversion "latest"
-		cppdialect "C++17"
-		staticruntime "On"
+		--cppdialect "C++17"
+		--staticruntime "On"
 		
 	filter "system:linux"
 		pic "On"
         systemversion "latest"
-		cppdialect "C++17"
-		staticruntime "On"
+		--cppdialect "C++17"
+		--staticruntime "On"
 	
 	filter "configurations:Debug"
 		runtime "Debug"

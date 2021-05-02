@@ -135,56 +135,56 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>..\..\..\Output\Force\Vendor\yaml-cpp\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\yaml-cpp\x86\Debug\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\yaml-cpp\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\yaml-cpp\x86\Debug\</IntDir>
     <TargetName>yaml-cpp</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>..\..\..\Output\Force\Vendor\yaml-cpp\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\yaml-cpp\x64\Debug\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\yaml-cpp\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\yaml-cpp\x64\Debug\</IntDir>
     <TargetName>yaml-cpp</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
-    <OutDir>..\..\..\Output\Force\Vendor\yaml-cpp\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\yaml-cpp\ARM\Debug\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\yaml-cpp\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\yaml-cpp\ARM\Debug\</IntDir>
     <TargetName>yaml-cpp</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>..\..\..\Output\Force\Vendor\yaml-cpp\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\yaml-cpp\x86\Release\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\yaml-cpp\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\yaml-cpp\x86\Release\</IntDir>
     <TargetName>yaml-cpp</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>..\..\..\Output\Force\Vendor\yaml-cpp\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\yaml-cpp\x64\Release\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\yaml-cpp\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\yaml-cpp\x64\Release\</IntDir>
     <TargetName>yaml-cpp</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
-    <OutDir>..\..\..\Output\Force\Vendor\yaml-cpp\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\yaml-cpp\ARM\Release\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\yaml-cpp\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\yaml-cpp\ARM\Release\</IntDir>
     <TargetName>yaml-cpp</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Distribution|Win32'">
-    <OutDir>..\..\..\Output\Force\Vendor\yaml-cpp\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\yaml-cpp\x86\Distribution\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\yaml-cpp\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\yaml-cpp\x86\Distribution\</IntDir>
     <TargetName>yaml-cpp</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Distribution|x64'">
-    <OutDir>..\..\..\Output\Force\Vendor\yaml-cpp\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\yaml-cpp\x64\Distribution\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\yaml-cpp\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\yaml-cpp\x64\Distribution\</IntDir>
     <TargetName>yaml-cpp</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Distribution|ARM'">
-    <OutDir>..\..\..\Output\Force\Vendor\yaml-cpp\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\yaml-cpp\ARM\Distribution\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\yaml-cpp\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\yaml-cpp\ARM\Distribution\</IntDir>
     <TargetName>yaml-cpp</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
@@ -195,7 +195,7 @@
       <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -210,7 +210,7 @@
       <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -226,7 +226,7 @@
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <MinimalRebuild>false</MinimalRebuild>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -245,7 +245,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -264,7 +264,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -283,7 +283,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -303,7 +303,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -322,7 +322,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -341,7 +341,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
